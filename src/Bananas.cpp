@@ -4,7 +4,10 @@
 using std::cout;
 using std::endl;
 
-Bananas::Bananas() : Food(){}
+/*!
+ * Default constructor. Initializes food base class, and then creates Bananas object.
+ */
+Bananas::Bananas() : Food() {}
 
 void Bananas::cookFood() {
 	cout << "Unpeeling banana" << endl;

@@ -10,6 +10,9 @@ public:
 	Food();
 	~Food();
 	bool isCooked();
+	/*!
+	 * Food is cooked, and cooked is set to true. This is an irreversible action.
+	 */
 	virtual void cookFood() = 0;
 };
 

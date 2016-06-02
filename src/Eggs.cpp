@@ -4,6 +4,9 @@
 using std::cout;
 using std::endl;
 
+/*!
+ * Default constructor. Initializes food base class, and then creates Eggs object.
+ */
 Eggs::Eggs() : Food() {}
 
 void Eggs::cookFood() {
