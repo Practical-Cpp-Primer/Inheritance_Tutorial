@@ -53,3 +53,7 @@ void checkPreparedness(vector<Food*> itemsToCook) {
 		cout << "Food is cooked: " << (*i) -> isCooked() << endl;
 	}
 }
+
+	// for (auto &i : itemsToCook) {
+	// 	i -> cookFood();		
+	// }
