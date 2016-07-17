@@ -50,10 +50,11 @@ int main(int argc, char const *argv[]){
 }
 
 /*!
- * Cooks list of food. 
+ * Cooks list of food using shared pointers. 
  * @param itemsToCook List of items to cook.
  */
 void prepare(vector<shared_ptr<Food>> itemsToCook) {
+	// Note the use of auto
 	for (auto i = itemsToCook.begin(); i != itemsToCook.end(); ++i) {
 		(*i) -> cookFood();
 	}
